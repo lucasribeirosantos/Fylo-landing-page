@@ -1,0 +1,98 @@
+/* ---- SECTION TWO ---- */
+.section-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-top: 12rem;
+}
+.section-two .text-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-two .text-two .title {
+    font-family: "Raleway", serif;
+    font-size: 36px;
+    color: var(--primary-dark-blue);
+    margin-bottom: 25px;
+}
+.section-two .text-two .first-p {
+    margin-bottom: 15px;
+}
+.section-two .text-two .second-p {
+    margin-bottom: 15px;
+}
+.section-two .text-two .fylo-btn {
+    position: relative;
+    display: inline;
+    max-width: max-content;
+    padding-bottom: 3px;
+    margin-bottom: 40px;
+}
+.section-two .text-two .fylo-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--accent-cyan);
+    transition: 0.2s ease-in;
+}
+.section-two .text-two .fylo-btn:hover::after {
+    background-color: hsl(170, 69%, 61%);
+}
+.section-two .text-two .fylo-btn .fylo-link:hover {
+    color: hsl(170, 69%, 61%);
+}
+.section-two .text-two .fylo-btn .fylo-link {
+    display: flex;
+    color: var(--accent-cyan);
+    transition: 0.2s ease-in;
+}
+.section-two .text-two .fylo-btn .fylo-link p {
+    display: flex;
+    align-items: center;
+}
+.section-two .text-two .fylo-btn .fylo-link p::after {
+    content: url(../images/icon-arrow.svg);
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+/* hsl(170, 69%, 61%) */
+
+
+/* ---- TESTIMONIAL ---- */
+.testimonial {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px var(--lightest-gray);
+    padding: 20px;
+    width: 55%;
+    margin-bottom: 130px;
+}
+.testimonial .icon-quotes {
+    margin-bottom: 10px;
+}
+.testimonial .testimonial-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.testimonial .avatar {
+    display: flex;
+    align-items: center;
+}
+.testimonial .avatar .avatar-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.testimonial .avatar .avatar-info h3 {
+    font-size: 15px;
+    font-family: "Raleway", serif;
+}
+.testimonial .avatar .avatar-info p {
+    font-size: 12px;
+}

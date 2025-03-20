@@ -1,0 +1,38 @@
+.section-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+.section-one .text-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+}
+.section-one .text-one .title {
+    font-family: "Raleway", serif;
+    font-size: 38px;
+    line-height: 50px;
+    color: var(--primary-dark-blue);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.section-one .text-one .text {
+    margin-bottom: 25px;
+}
+.section-one .text-one .email-form {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.section-one .text-one .email-form input{
+    padding: 12px;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-family: "Raleway", serif;
+    border: 1px solid var(--light-gray);
+}
+.section-one .text-one .email-form label:hover {
+    background-color: hsl(224, 100%, 69%);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}

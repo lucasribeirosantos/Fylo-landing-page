@@ -1,0 +1,13 @@
+nav .nav-list {
+    display: flex;
+}
+nav .nav-list .nav-item {
+    margin-right: 40px;
+    font-family: "Raleway", serif;
+    color: var(--primary-dark-blue);
+    font-size: 16px;
+    cursor: pointer;
+}
+nav .nav-list .nav-item:last-child {
+    margin-right: 0;
+}
