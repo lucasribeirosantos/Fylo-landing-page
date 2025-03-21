@@ -41,3 +41,8 @@
 .section-three #email-2 label {
     width: 50%;
 }
+.section-three #email-2 label:hover {
+    background-color: hsl(224, 100%, 69%);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}

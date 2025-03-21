@@ -61,12 +61,27 @@
 .footer .second-about li {
    margin-bottom: 15px;
 }
+.footer .first-about a,
+.footer .second-about a {
+    transition: 0.2s ease-in;
+}
+.footer .first-about a:hover,
+.footer .second-about a:hover {
+    color: hsl(224, 100%, 69%);
+    transition: 0.2s ease-in;
+}
 .footer .first-about li:last-child,
 .footer .second-about li:last-child {
     margin-bottom: 0;
 }
 .footer .social {
     display: flex;
+}
+.footer .social a {
+    margin-right: 12px;
+}
+.footer .social a:last-child {
+    margin-right: 0px;
 }
 .footer .social i {
     color: #fff;
@@ -79,8 +94,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    transition: 0.2s ease-in;
 }
-.footer .social i:last-child {
-    margin-right: 0px;
+.footer .social i:hover {
+    color: hsl(224, 100%, 69%);
+    border-color: hsl(224, 100%, 69%);
+    transition: 0.2s ease-in;
 }

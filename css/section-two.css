@@ -42,6 +42,10 @@
 .section-two .text-two .fylo-btn:hover::after {
     background-color: hsl(170, 69%, 61%);
 }
+.section-two .text-two .fylo-btn .fylo-link p:hover::after {
+    background-image: url(../images/arrow-hover.svg);
+    transition: 0.2s ease-in;
+}
 .section-two .text-two .fylo-btn .fylo-link:hover {
     color: hsl(170, 69%, 61%);
 }
@@ -52,16 +56,16 @@
 }
 .section-two .text-two .fylo-btn .fylo-link p {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 .section-two .text-two .fylo-btn .fylo-link p::after {
-    content: url(../images/icon-arrow.svg);
+    content: '';
+    background-image: url(../images/icon-arrow.svg);
     margin-left: 5px;
     width: 16px;
     height: 16px;
+    transition: 0.2s ease-in;
 }
-/* hsl(170, 69%, 61%) */
-
 
 /* ---- TESTIMONIAL ---- */
 .testimonial {
