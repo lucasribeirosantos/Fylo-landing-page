@@ -44,10 +44,11 @@
         <h1 class="title">All your files in one secure location, acessible anywhere.</h1>
 
         <p class="text text-style">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-        <form action="GET" id="email" class="email-form">
-          <input type="text" id="getStarted" name="started" placeholder="Enter your email...">
-          <label for="getStarted" class="label">Get Started</label>
+        <form action="POST" id="email-1" class="email-form">
+          <input type="text" id="getStarted" name="started" placeholder="Enter your email..." aria-label="E-email">
+            <button type="submit" class="first-btn" id="first-btn">Get Started</button>
         </form>
+        <p class="first-required hide" id="first-required">Please check your email</p>
       </div>
 
       <article>
@@ -102,9 +103,10 @@
         </p>
       </div>
 
-      <form action="GET" id="email-2" class="email-form">
-        <input type="text" id="getStarted-2" name="started" placeholder="email@example.com">
-        <label for="getStarted-2" class="label">Get Started For Free</label>
+      <form action="POST" id="email-2" class="email-form">
+        <input type="text" id="earlyAccess" name="started" placeholder="email@example.com" aria-label="E-mail">
+        <p class="second-required hide" id="second-required">Please check your email</p>
+        <button type="submit" class="second-btn" id="second-btn">Get Started For Free</button>
       </form>
     </section>
 
@@ -141,5 +143,6 @@
 
 
   <script src="https://kit.fontawesome.com/21bfff7507.js" crossorigin="anonymous"></script>
+  <script src="./js/index.js" type="module"></script>
 </body>
 </html>

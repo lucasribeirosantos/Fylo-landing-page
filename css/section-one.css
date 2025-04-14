@@ -31,8 +31,18 @@
     font-family: "Raleway", serif;
     border: 1px solid var(--light-gray);
 }
-.section-one .text-one .email-form label:hover {
+.section-one .text-one .email-form .first-btn:hover {
     background-color: hsl(224, 100%, 69%);
     transition: 0.2s ease-in;
     cursor: pointer;
+}
+
+/* ---- VALIDATION ---- */
+.section-one .text-one .first-required {
+    font-size:  12px;
+    margin-top: 5px;
+    color: rgb(241, 40, 40);
+}
+.section-one .text-one .email-form input.error{
+    border-color: rgb(241, 40, 40);
 }

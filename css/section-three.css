@@ -36,13 +36,23 @@
     padding: 14px;
     border-radius: 4px;
     border: none;
-    margin-bottom: 15px;
 }
-.section-three #email-2 label {
+.section-three #email-2 .second-btn {
     width: 50%;
+    margin-top: 15px;
 }
-.section-three #email-2 label:hover {
+.section-three #email-2 .second-btn:hover {
     background-color: hsl(224, 100%, 69%);
     transition: 0.2s ease-in;
     cursor: pointer;
+}
+
+/* ---- VALIDATION ---- */
+.section-three #email-2 .second-required {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+.section-three #email-2 input.error {
+    border: 1px solid rgb(241, 40, 40);
 }

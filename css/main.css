@@ -12,10 +12,11 @@ li {
     font-family: "Open sans", serif;
     font-size: 16px;
 }
-label {
+button {
     color: var(--lightest-gray);
     font-family: "Open sans", serif;
     background-color: var(--accent-blue);
+    border: none;
     padding: 12px;
     text-align: center;
     font-size: 16px;
@@ -41,4 +42,9 @@ nav {
     font-family: "Open sans", serif;
     color: var(--primary-dark-blue);
     font-size: 16px;
+}
+
+/* ---- ACTIVE ---- */
+.hide {
+    display: none;
 }

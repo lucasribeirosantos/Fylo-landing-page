@@ -54,6 +54,9 @@
     .section-three #email-2 label {
         width: 100%;
     }
+    .section-three #email-2 .second-btn {
+        align-self: center;
+    }
 }
 
 @media (max-width: 425px) {
@@ -132,6 +135,9 @@
     }
     .section-three #email-2 input {
         margin-bottom: 10px;
+    }
+    .section-three #email-2 .second-btn {
+        width: 65%;
     }
 
     .footer {
