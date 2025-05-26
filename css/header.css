@@ -1,13 +1,14 @@
 nav .nav-list {
     display: flex;
+    height: max-content;
 }
-nav .nav-list .nav-item {
-    margin-right: 40px;
+nav .nav-list a li {
     font-family: "Raleway", serif;
     color: var(--primary-dark-blue);
     font-size: 16px;
     cursor: pointer;
+    margin-right: 40px;
 }
-nav .nav-list .nav-item:last-child {
+nav .nav-list a:last-child {
     margin-right: 0;
 }
